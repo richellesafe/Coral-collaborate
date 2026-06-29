@@ -519,9 +519,21 @@
       color:var(--bark);
       line-height:1;
     }
+    .coaching-grid {
+      display:grid;
+      grid-template-columns:1fr .98fr;
+      gap:36px;
+      align-items:start;
+    }
     @media (max-width: 980px) {
       .hero-grid, .about-grid, .services-grid, .testimonials-grid, .contact-grid {
         grid-template-columns:1fr;
+      }
+      .coaching-grid {
+        grid-template-columns:1fr;
+      }
+      .coaching-grid .photo-panel {
+        display:none;
       }
     }
     @media (max-width: 720px) {
@@ -667,9 +679,11 @@
 
     <section id="coaching">
       <div class="wrap">
+        <div class="coaching-grid">
+        <div>
         <div class="section-head">
           <div class="eyebrow">The Work</div>
-          <h2>Professional identity coaching — for moments that <em style="font-style:italic;">change everything.</em></h2>
+          <h2>Leadership coaching — for moments that <em style="font-style:italic;">change everything.</em></h2>
           <p>My clients come to coaching at moments like these:</p>
           <ul style="list-style:none;padding:0;margin:20px 0;display:grid;gap:12px;">
               <li style="display:flex;gap:12px;align-items:flex-start;"><span style="color:var(--clay);font-size:1.2em;line-height:1.4;">—</span><span>They've stepped into a bigger leadership role and the old playbook isn't working anymore</span></li>
@@ -696,6 +710,11 @@
             <p>Every engagement begins with a discovery call to make sure it's the right fit. From there, we build something that's yours.</p>
             <span class="tag">Confidential &amp; Tailored</span>
           </div>
+        </div>
+        </div>
+        <div class="photo-panel" style="position:sticky;top:100px;">
+          <img src="coaching.jpg" alt="Richelle in a coaching session" style="object-position:center top;" />
+        </div>
         </div>
       </div>
     </section>
