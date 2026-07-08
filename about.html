@@ -367,6 +367,22 @@
       object-position:center 40%;
       display:block;
     }
+    .photo-band {
+      width:100%;
+      height:420px;
+      overflow:hidden;
+      position:relative;
+    }
+    .photo-band img {
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      object-position:center 40%;
+      display:block;
+    }
+    @media (max-width:720px) {
+      .photo-band { height:280px; }
+    }
 
     .services-grid {
       display:grid;
@@ -689,13 +705,13 @@
               <div class="cred"><span class="dot"></span><span>Leadership coaching &amp; team facilitation</span></div>
             </div>
           </div>
-
-          <div class="photo-panel">
-            <img src="coaching.jpg" alt="Group coaching session" />
-          </div>
         </div>
       </div>
     </section>
+
+    <div class="photo-band">
+      <img src="coaching.jpg" alt="Group coaching session" />
+    </div>
   </main>
 
   <footer class="footer">
