@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About — Coral Collaborative</title>
-  <meta name="description" content="Coach and HR consultant Richelle — 15+ years helping people find their professional identity and build toward what's next." />
+  <meta name="description" content="Coach and facilitator Richelle — 15+ years helping people find their professional identity and build toward what's next." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
@@ -50,6 +50,26 @@
       font-size:12px;
       text-transform:uppercase;
       letter-spacing:.22em;
+      color:var(--moss);
+      font-weight:700;
+    }
+    .cta-quote {
+      margin-top:22px;
+      max-width:400px;
+    }
+    .cta-quote p {
+      font-family:"Cormorant Garamond", Georgia, serif;
+      font-size:1.15rem;
+      font-style:italic;
+      line-height:1.5;
+      color:rgba(75,59,48,.9);
+      margin:0;
+    }
+    .cta-quote .who {
+      margin-top:8px;
+      font-size:11px;
+      text-transform:uppercase;
+      letter-spacing:.13em;
       color:var(--moss);
       font-weight:700;
     }
@@ -342,9 +362,9 @@
     }
     .photo-panel img {
       width:100%;
-      height:260px;
+      height:340px;
       object-fit:cover;
-      object-position:center 8%;
+      object-position:center 0%;
       display:block;
     }
 
@@ -597,7 +617,7 @@
         <a href="index.html" >Home</a>
         <a href="about.html" class="nav-active">About</a>
         <a href="coaching.html" >Coaching</a>
-        <a href="consulting.html" >Consulting</a>
+        <a href="facilitation.html" >Facilitation</a>
         <a href="connect.html">Connect</a>
       </nav>
       <a class="nav-cta" href="https://calendly.com/richelle-coralcollaborative/30min">Book a discovery call</a>
@@ -612,7 +632,7 @@
     <a href="index.html" onclick="closeMobileMenu()">Home</a>
     <a href="about.html" onclick="closeMobileMenu()">About</a>
     <a href="coaching.html" onclick="closeMobileMenu()">Coaching</a>
-    <a href="consulting.html" onclick="closeMobileMenu()">Consulting</a>
+    <a href="facilitation.html" onclick="closeMobileMenu()">Facilitation</a>
     <a href="connect.html" onclick="closeMobileMenu()">Connect</a>
     <a class="mobile-cta" href="https://calendly.com/richelle-coralcollaborative/30min">Book a discovery call</a>
   </div>
@@ -631,7 +651,7 @@
       <div class="wrap page-hero-copy">
         <div class="eyebrow">About Richelle</div>
         <h1>I help people find the architecture that's <em style="font-style:italic;color:var(--clay);">already inside them.</em></h1>
-        <p class="lead">A leadership coach and HR consultant who has spent 15 years inside some of the world's most ambitious organizations — and the last several years helping individual leaders and executives scale and uplevel their skills.</p>
+        <p class="lead">A leadership coach and facilitator who has spent 15 years inside some of the world's most ambitious organizations — and the last several years helping people find more clarity, evolution, and purpose in how they lead.</p>
       </div>
     </section>
 
@@ -639,16 +659,17 @@
       <div class="wrap about-grid">
         <div>
           <div class="about-copy">
-            <p>I'm Richelle — a coach and HR consultant who has spent 15 years inside some of the world's most ambitious organizations, and the last several years doing the deeper work: helping people figure out who they are, what they want, and how to build toward it.</p>
-            <p>This is leadership coaching — for those ready to scale their impact and lead at a higher level.</p>
+            <p>I'm Richelle — a coach and facilitator who has spent 15 years inside some of the world's most ambitious organizations, and the last several years doing the deeper work: helping people figure out who they are, what they want, and how to build toward it.</p>
+            <p>This is leadership coaching for anyone craving more clarity, evolution, and purpose — including senior leaders ready to sharpen their edge.</p>
             <p>My approach is what I call Intuitive Architecture: I follow the emotions, the energy, the vision of who you're becoming — and bring it into structure. Chaos into clarity. A path you can actually walk. Rooted in the belief that you already hold the answers. My job is to help you find them.</p>
             <p>Coral looks delicate — but it's one of the most resilient structures on earth. The people I work with are the same: quietly strong, built to last, capable of holding entire ecosystems together when given the right conditions.</p>
           </div>
           <div style="margin-top:32px;">
             <a class="btn btn-primary" href="https://calendly.com/richelle-coralcollaborative/30min">Book a discovery call</a>
           </div>
-          <div class="photo-panel" style="margin-top:32px;">
-            <img src="coaching.jpg" alt="Group coaching session" />
+          <div class="cta-quote">
+            <p>"Richelle built real trust across a team that had been stuck for months. She has a way of holding space for the hard conversations without ever losing momentum."</p>
+            <div class="who">— Facilitation Client</div>
           </div>
         </div>
 
@@ -665,8 +686,12 @@
             <div class="cred-list">
               <div class="cred"><span class="dot"></span><span>15+ years HR leadership — Meta, Amazon, &amp; Netflix</span></div>
               <div class="cred"><span class="dot"></span><span>ICF PCC Level 2 (in progress)</span></div>
-              <div class="cred"><span class="dot"></span><span>Leadership coaching &amp; fractional HR consulting</span></div>
+              <div class="cred"><span class="dot"></span><span>Leadership coaching &amp; team facilitation</span></div>
             </div>
+          </div>
+
+          <div class="photo-panel">
+            <img src="coaching.jpg" alt="Group coaching session" />
           </div>
         </div>
       </div>
@@ -676,7 +701,7 @@
   <footer class="footer">
     <div class="wrap footer-inner">
       <div>© 2026 Coral Collaborative</div>
-      <div>Leadership coaching and fractional HR consulting.</div>
+      <div>Leadership coaching and team facilitation.</div>
 <br /> <a href="/privacy-policy.html">Privacy Policy</a>
     </div>
   </footer>
